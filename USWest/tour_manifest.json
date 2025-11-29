@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "tour_title": "Tour",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-116.438, 39.547] },
+      "properties": {
+        "title": "Western Geology",
+        "zoom": 6.1,
+        "pitch": 40,
+        "bearing": 0,
+        "content_file": "01_intro.html",
+        "effects": {
+          "show": [],
+          "hide": ["peak-major","geo-regional"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-119.49, 35.73] },
+      "properties": {
+        "title": "San Andreas Transform Fault",
+        "zoom": 8,
+        "pitch": 80,
+        "bearing": -40,
+        "content_file": "02_san_andreas.html",
+        "effects": {
+          "show": ["fault-highlight","geo-annotation-highlight"],
+          "hide": ["geo-medium","fault-major","geo-annotation"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-121.6, 43.78] },
+      "properties": {
+        "title": "Cascadia Convergence Fault",
+        "zoom": 8.2,
+        "pitch": 80,
+        "bearing": -40,
+        "content_file": "03_cascadia.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-122.865, 42.129] },
+      "properties": {
+        "title": "Ring of Fire",
+        "zoom": 8,
+        "pitch": 70,
+        "bearing": 5,
+        "content_file": "04_cascade_arc.html",
+        "effects": {
+          "show": ["volcano-highlight"],
+          "hide": ["peak-marker","geo-medium"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-119.5, 45.8] },
+      "properties": {
+        "title": "Columbia River Basalts",
+        "zoom": 8.4,
+        "pitch": 70,
+        "bearing": 0,
+        "content_file": "07_columbia_basalts.html",
+        "effects": {
+          "show": ["geo-annotation-highlight"],
+          "hide": ["peak-major","geo-regional","geo-medium","geo-annotation"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-118.57, 45.52] },
+      "properties": {
+        "title": "Missoula Floods",
+        "zoom": 8.4,
+        "pitch": 60,
+        "bearing": 5,
+        "content_file": "08_missoula_floods.html",
+        "effects": {
+          "show": ["geo-annotation-highlight"],
+          "hide": ["peak-major","geo-regional","geo-medium","geo-annotation"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-122.4, 47.6] },
+      "properties": {
+        "title": "Ice Age",
+        "zoom": 9,
+        "pitch": 45,
+        "bearing": 2,
+        "content_file": "09_puget_sound.html"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-114.21, 42.34] },
+      "properties": {
+        "title": "Hot Spot Track",
+        "zoom": 7.6,
+        "pitch": 50,
+        "bearing": 45,
+        "content_file": "10_craters_moon.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-110.34, 44.42] },
+      "properties": {
+        "title": "Yellowstone Supervolcano",
+        "zoom": 8.2,
+        "pitch": 30,
+        "bearing": 0,
+        "content_file": "11_yellowstone.html",
+        "effects": {
+          "show": ["fault-minor-highlight"],
+          "hide": ["fault-minor","peak-local"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-117.0, 39.0] },
+      "properties": {
+        "title": "Basin and Range",
+        "zoom": 7,
+        "pitch": 50,
+        "bearing": 0,
+        "content_file": "12_basin_range.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-116.985, 36.27] },
+      "properties": {
+        "title": "Death Valley",
+        "zoom": 8.7,
+        "pitch": 60,
+        "bearing": 0,
+        "content_file": "14_death_valley.html",
+        "effects": {
+          "show": [],
+          "hide": ["peak-regional","peak-local"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-111.96, 35.8] },
+      "properties": {
+        "title": "Time Machine",
+        "zoom": 9.8,
+        "pitch": 60,
+        "bearing": 0,
+        "content_file": "15_grand_canyon.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-106.2, 36.33] },
+      "properties": {
+        "title": "Valles Caldera",
+        "zoom": 8.2,
+        "pitch": 55,
+        "bearing": 0,
+        "content_file": "17_valles.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-106.90, 35] },
+      "properties": {
+        "title": "The Rio Grande Rift",
+        "zoom": 8.8,
+        "pitch": 60,
+        "bearing": 0,
+        "content_file": "18_rio_grande_rift.html"
+      }
+    }
+  ]
+}
