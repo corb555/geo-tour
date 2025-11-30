@@ -123,7 +123,8 @@
         "effects": {
           "show": ["fault-minor-highlight"],
           "hide": ["fault-minor","peak-local"]
-        }
+        },
+        "clue": "the largest volcano in the US"
       }
     },
     {
@@ -160,7 +161,8 @@
         "zoom": 9.8,
         "pitch": 60,
         "bearing": 0,
-        "content_file": "15_grand_canyon.html"
+        "content_file": "15_grand_canyon.html",
+        "clue": "The lowest point in North America"
       }
     },
     {
