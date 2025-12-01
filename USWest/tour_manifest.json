@@ -4,7 +4,7 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-116.438, 39.547] },
+      "geometry": { "type": "Point", "coordinates": [-118.54, 39.51] },
       "properties": {
         "title": "Western Geology",
         "zoom": 6.1,
@@ -19,7 +19,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-119.49, 35.73] },
+      "geometry": { "type": "Point", "coordinates": [-120.28, 36.7] },
       "properties": {
         "title": "San Andreas Transform Fault",
         "zoom": 8,
@@ -40,7 +40,11 @@
         "zoom": 8.2,
         "pitch": 80,
         "bearing": -40,
-        "content_file": "03_cascadia.html"
+        "content_file": "03_cascadia.html",
+        "effects": {
+          "show": ["fault-highlight","geo-annotation-highlight"],
+          "hide": ["geo-medium","fault-major","geo-annotation"]
+        }
       }
     },
     {
