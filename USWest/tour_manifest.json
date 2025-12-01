@@ -60,10 +60,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-119.5, 45.8] },
+      "geometry": { "type": "Point", "coordinates": [-119.556, 45.06] },
       "properties": {
         "title": "Columbia River Basalts",
-        "zoom": 8.4,
+        "zoom": 8.5,
         "pitch": 70,
         "bearing": 0,
         "content_file": "07_columbia_basalts.html",
@@ -75,10 +75,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-118.57, 45.52] },
+      "geometry": { "type": "Point", "coordinates": [-118.57, 45.54] },
       "properties": {
         "title": "Missoula Floods",
-        "zoom": 8.4,
+        "zoom": 8.5,
         "pitch": 60,
         "bearing": 5,
         "content_file": "08_missoula_floods.html",
