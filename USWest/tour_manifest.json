@@ -19,7 +19,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-120.28, 36.7] },
+      "geometry": { "type": "Point", "coordinates": [-120.06, 36.64] },
       "properties": {
         "title": "San Andreas Transform Fault",
         "zoom": 8,
@@ -34,7 +34,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-121.6, 43.78] },
+      "geometry": { "type": "Point", "coordinates": [-122.9, 44.8] },
       "properties": {
         "title": "Cascadia Convergence Fault",
         "zoom": 8.2,
@@ -49,10 +49,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-122.865, 42.129] },
+      "geometry": { "type": "Point", "coordinates": [-122.68, 42.78] },
       "properties": {
         "title": "Ring of Fire",
-        "zoom": 8,
+        "zoom": 7.8,
         "pitch": 70,
         "bearing": 5,
         "content_file": "04_cascade_arc.html",
@@ -117,7 +117,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-110.34, 44.42] },
+      "geometry": { "type": "Point", "coordinates": [-110.72, 44.32] },
       "properties": {
         "title": "Yellowstone Supervolcano",
         "zoom": 8.2,
