@@ -106,13 +106,17 @@
 
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-114.21, 42.34] },
+      "geometry": { "type": "Point", "coordinates": [-113.75, 42.63] },
       "properties": {
         "title": "Hot Spot Track",
         "zoom": 7.6,
         "pitch": 50,
         "bearing": 45,
-        "content_file": "10_craters_moon.html"
+        "content_file": "10_craters_moon.html",
+        "effects": {
+          "show": [],
+          "hide": ["geo-medium"]
+        }
       }
     },
     {
@@ -171,10 +175,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-106.2, 36.33] },
+      "geometry": { "type": "Point", "coordinates": [-106.2, 35.9] },
       "properties": {
         "title": "Valles Caldera",
-        "zoom": 8.2,
+        "zoom": 9.3,
         "pitch": 55,
         "bearing": 0,
         "content_file": "17_valles.html",
