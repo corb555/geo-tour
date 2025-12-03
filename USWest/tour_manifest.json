@@ -159,10 +159,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-111.96, 35.8] },
+      "geometry": { "type": "Point", "coordinates": [-111.88, 36.17] },
       "properties": {
         "title": "Time Machine",
-        "zoom": 9.8,
+        "zoom": 9.4,
         "pitch": 60,
         "bearing": 0,
         "content_file": "15_grand_canyon.html",
@@ -177,7 +177,11 @@
         "zoom": 8.2,
         "pitch": 55,
         "bearing": 0,
-        "content_file": "17_valles.html"
+        "content_file": "17_valles.html",
+        "effects": {
+          "show": [],
+          "hide": ["fault-regional","peak-local"]
+        }
       }
     },
     {
@@ -188,7 +192,11 @@
         "zoom": 8.8,
         "pitch": 60,
         "bearing": 0,
-        "content_file": "18_rio_grande_rift.html"
+        "content_file": "18_rio_grande_rift.html",
+        "effects": {
+          "show": [],
+          "hide": ["fault-regional","peak-local"]
+        }
       }
     }
   ]
