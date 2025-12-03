@@ -166,7 +166,7 @@
       "geometry": { "type": "Point", "coordinates": [-111.88, 36.17] },
       "properties": {
         "title": "Time Machine",
-        "zoom": 9.4,
+        "zoom": 9.0,
         "pitch": 60,
         "bearing": 0,
         "content_file": "15_grand_canyon.html",
@@ -178,7 +178,7 @@
       "geometry": { "type": "Point", "coordinates": [-106.2, 35.9] },
       "properties": {
         "title": "Valles Caldera",
-        "zoom": 9.3,
+        "zoom": 9.0,
         "pitch": 55,
         "bearing": 0,
         "content_file": "17_valles.html",
