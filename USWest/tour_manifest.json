@@ -175,10 +175,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-106.2, 35.9] },
+      "geometry": { "type": "Point", "coordinates": [-106.37, 35.6] },
       "properties": {
         "title": "Valles Caldera",
-        "zoom": 9.0,
+        "zoom": 9.7,
         "pitch": 55,
         "bearing": 0,
         "content_file": "17_valles.html",
