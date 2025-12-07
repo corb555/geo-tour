@@ -34,10 +34,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-122.9, 44.8] },
+      "geometry": { "type": "Point", "coordinates": [-122.05, 44.7] },
       "properties": {
         "title": "Cascadia Convergence Fault",
-        "zoom": 8.2,
+        "zoom": 8.1,
         "pitch": 80,
         "bearing": -40,
         "content_file": "03_cascadia.html",
