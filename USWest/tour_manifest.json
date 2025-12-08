@@ -165,7 +165,7 @@
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-111.88, 36.17] },
       "properties": {
-        "title": "Time Machine",
+        "title": "Grand Canyon",
         "zoom": 9.0,
         "pitch": 60,
         "bearing": 0,
