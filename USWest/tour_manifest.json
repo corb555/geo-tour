@@ -19,7 +19,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-120.66, 36.48] },
+      "geometry": { "type": "Point", "coordinates": [-120.86, 36.88] },
       "properties": {
         "title": "San Andreas Transform Fault",
         "zoom": 8,
