@@ -97,7 +97,7 @@
       "geometry": { "type": "Point", "coordinates": [-122.4, 47.6] },
       "properties": {
         "title": "Ice Age",
-        "zoom": 9,
+        "zoom": 8.5,
         "pitch": 45,
         "bearing": 2,
         "content_file": "09_puget_sound.html"
@@ -151,7 +151,7 @@
       "geometry": { "type": "Point", "coordinates": [-116.985, 36.27] },
       "properties": {
         "title": "Death Valley",
-        "zoom": 8.7,
+        "zoom": 8.5,
         "pitch": 60,
         "bearing": 0,
         "content_file": "14_death_valley.html",
@@ -166,7 +166,7 @@
       "geometry": { "type": "Point", "coordinates": [-111.88, 36.17] },
       "properties": {
         "title": "Grand Canyon",
-        "zoom": 9.0,
+        "zoom": 8.5,
         "pitch": 60,
         "bearing": 0,
         "content_file": "15_grand_canyon.html",
@@ -178,7 +178,7 @@
       "geometry": { "type": "Point", "coordinates": [-107.32, 34.98] },
       "properties": {
         "title": "Valles Caldera",
-        "zoom": 9,
+        "zoom": 8.5,
         "pitch": 55,
         "bearing": 0,
         "content_file": "17_valles.html",
@@ -193,7 +193,7 @@
       "geometry": { "type": "Point", "coordinates": [-106.90, 35] },
       "properties": {
         "title": "The Rio Grande Rift",
-        "zoom": 8.8,
+        "zoom": 8.5,
         "pitch": 60,
         "bearing": 0,
         "content_file": "18_rio_grande_rift.html",
