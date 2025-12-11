@@ -39,7 +39,7 @@
         "title": "Cascadia Convergence Fault",
         "zoom": 8.1,
         "pitch": 80,
-        "bearing": -40,
+        "bearing": 0,
         "content_file": "03_cascadia.html",
         "effects": {
           "show": ["fault-highlight","geo-annotation-highlight","geo-arrow"],
