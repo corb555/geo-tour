@@ -24,7 +24,7 @@
         "title": "San Andreas Transform Fault",
         "zoom": 8,
         "pitch": 80,
-        "bearing": -40,
+        "bearing": 0,
         "content_file": "02_san_andreas.html",
         "effects": {
           "show": ["fault-highlight","geo-annotation-highlight","geo-arrow"],
