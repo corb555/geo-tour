@@ -27,7 +27,7 @@
         "bearing": -40,
         "content_file": "02_san_andreas.html",
         "effects": {
-          "show": ["fault-highlight","geo-annotation-highlight"],
+          "show": ["fault-highlight","geo-annotation-highlight","geo-arrow"],
           "hide": ["geo-medium","fault-major","geo-annotation"]
         }
       }
@@ -42,7 +42,7 @@
         "bearing": -40,
         "content_file": "03_cascadia.html",
         "effects": {
-          "show": ["fault-highlight","geo-annotation-highlight"],
+          "show": ["fault-highlight","geo-annotation-highlight","geo-arrow"],
           "hide": ["geo-medium","fault-major","geo-annotation"]
         }
       }
