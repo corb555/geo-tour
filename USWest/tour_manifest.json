@@ -19,7 +19,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-120.06, 36.64] },
+      "geometry": { "type": "Point", "coordinates": [-120.66, 36.48] },
       "properties": {
         "title": "San Andreas Transform Fault",
         "zoom": 8,
@@ -34,7 +34,7 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-122.05, 44.7] },
+      "geometry": { "type": "Point", "coordinates": [-123.16, 44.85] },
       "properties": {
         "title": "Cascadia Convergence Fault",
         "zoom": 8.1,
