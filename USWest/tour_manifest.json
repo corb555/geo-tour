@@ -42,8 +42,8 @@
         "bearing": 0,
         "content_file": "03_cascadia.html",
         "effects": {
-          "show": ["fault-highlight","geo-annotation-highlight","geo-arrow"],
-          "hide": ["geo-medium","fault-major","geo-annotation"]
+          "show": ["geo-annotation-highlight","geo-arrow"],
+          "hide": ["fault-major","fault-regional","fault-minor","geo-minor", "geo-medium","geo-annotation"]
         }
       }
     },
