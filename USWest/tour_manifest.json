@@ -4,10 +4,10 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-118.54, 39.51] },
+      "geometry": { "type": "Point", "coordinates": [-117.97, 41.67] },
       "properties": {
         "title": "Western Geology",
-        "zoom": 6.1,
+        "zoom": 5.9,
         "pitch": 40,
         "bearing": 0,
         "content_file": "01_intro.html",
@@ -19,10 +19,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-120.86, 36.88] },
+      "geometry": { "type": "Point", "coordinates": [-120.15, 36.17] },
       "properties": {
         "title": "San Andreas Transform Fault",
-        "zoom": 8,
+        "zoom": 7,
         "pitch": 80,
         "bearing": 0,
         "content_file": "02_san_andreas.html",
@@ -34,10 +34,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-123.16, 44.85] },
+      "geometry": { "type": "Point", "coordinates": [-122.48, 44.57] },
       "properties": {
         "title": "Cascadia Convergence Fault",
-        "zoom": 8.1,
+        "zoom": 8,
         "pitch": 80,
         "bearing": 0,
         "content_file": "03_cascadia.html",
@@ -49,25 +49,25 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-122.68, 42.78] },
+      "geometry": { "type": "Point", "coordinates": [-122.386, 42.623] },
       "properties": {
         "title": "Ring of Fire",
-        "zoom": 7.8,
+        "zoom": 7.6,
         "pitch": 70,
         "bearing": 5,
         "content_file": "04_cascade_arc.html",
         "effects": {
-          "show": ["volcano-highlight"],
+          "show": ["volcano-highlight","geo-arrow"],
           "hide": ["peak-marker","geo-medium"]
         }
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-119.556, 45.06] },
+      "geometry": { "type": "Point", "coordinates": [-118.49, 46] },
       "properties": {
         "title": "Columbia River Basalts",
-        "zoom": 8.5,
+        "zoom": 8.4,
         "pitch": 70,
         "bearing": 0,
         "content_file": "07_columbia_basalts.html",
@@ -79,10 +79,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-118.57, 45.54] },
+      "geometry": { "type": "Point", "coordinates": [-118.48, 46.436] },
       "properties": {
         "title": "Missoula Floods",
-        "zoom": 8.5,
+        "zoom": 8.6,
         "pitch": 60,
         "bearing": 5,
         "content_file": "08_missoula_floods.html",
@@ -100,7 +100,11 @@
         "zoom": 8.5,
         "pitch": 45,
         "bearing": 2,
-        "content_file": "09_puget_sound.html"
+        "content_file": "09_puget_sound.html",
+        "effects": {
+          "show": ["geo-glacial"],
+          "hide": []
+        }
       }
     },
 
@@ -175,10 +179,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-107.32, 34.98] },
+      "geometry": { "type": "Point", "coordinates": [-107.44, 34.86] },
       "properties": {
         "title": "Valles Caldera",
-        "zoom": 8.5,
+        "zoom": 8.2,
         "pitch": 55,
         "bearing": 0,
         "content_file": "17_valles.html",
