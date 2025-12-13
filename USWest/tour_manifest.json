@@ -103,7 +103,7 @@
         "content_file": "09_puget_sound.html",
         "effects": {
           "show": ["geo-glacial"],
-          "hide": []
+          "hide": ["fault-major","fault-regional","fault-minor","geo-minor"]
         }
       }
     },
@@ -128,7 +128,7 @@
       "geometry": { "type": "Point", "coordinates": [-110.72, 44.32] },
       "properties": {
         "title": "Yellowstone Supervolcano",
-        "zoom": 8.2,
+        "zoom": 8.4,
         "pitch": 30,
         "bearing": 0,
         "content_file": "11_yellowstone.html",
