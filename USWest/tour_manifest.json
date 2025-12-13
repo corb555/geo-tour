@@ -19,10 +19,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-120.15, 36.17] },
+      "geometry": { "type": "Point", "coordinates": [-120.17, 36.97] },
       "properties": {
         "title": "San Andreas Transform Fault",
-        "zoom": 7,
+        "zoom": 7.4,
         "pitch": 80,
         "bearing": 0,
         "content_file": "02_san_andreas.html",
