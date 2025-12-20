@@ -4,7 +4,7 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-117.97, 41.67] },
+      "geometry": { "type": "Point", "coordinates": [-117.88, 40.37] },
       "properties": {
         "title": "Western Geology",
         "zoom": 5.9,
@@ -77,36 +77,6 @@
         }
       }
     },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-118.48, 46.436] },
-      "properties": {
-        "title": "Missoula Floods",
-        "zoom": 8.6,
-        "pitch": 60,
-        "bearing": 5,
-        "content_file": "08_missoula_floods.html",
-        "effects": {
-          "show": ["geo-annotation-highlight"],
-          "hide": ["peak-major","geo-regional","geo-medium","geo-annotation"]
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-122.4, 47.6] },
-      "properties": {
-        "title": "Ice Age",
-        "zoom": 8.5,
-        "pitch": 45,
-        "bearing": 2,
-        "content_file": "09_puget_sound.html",
-        "effects": {
-          "show": ["geo-glacial"],
-          "hide": ["fault-major","fault-regional","fault-minor","geo-minor"]
-        }
-      }
-    },
 
     {
       "type": "Feature",
@@ -125,10 +95,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-110.72, 44.32] },
+      "geometry": { "type": "Point", "coordinates": [-110.66, 44.29] },
       "properties": {
         "title": "Yellowstone Supervolcano",
-        "zoom": 8.4,
+        "zoom": 8.7,
         "pitch": 30,
         "bearing": 0,
         "content_file": "11_yellowstone.html",
@@ -167,10 +137,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-111.88, 36.17] },
+      "geometry": { "type": "Point", "coordinates": [-111.93, 36.24] },
       "properties": {
         "title": "Grand Canyon",
-        "zoom": 8.5,
+        "zoom": 8.9,
         "pitch": 60,
         "bearing": 0,
         "content_file": "15_grand_canyon.html",
@@ -204,6 +174,37 @@
         "effects": {
           "show": [],
           "hide": ["fault-regional","peak-local"]
+        }
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-118.48, 46.436] },
+      "properties": {
+        "title": "Missoula Floods",
+        "zoom": 8.6,
+        "pitch": 60,
+        "bearing": 5,
+        "content_file": "19_missoula_floods.html",
+        "effects": {
+          "show": ["geo-annotation-highlight"],
+          "hide": ["peak-major","geo-regional","geo-medium","geo-annotation"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-122.4, 47.6] },
+      "properties": {
+        "title": "Ice Age",
+        "zoom": 8.6,
+        "pitch": 45,
+        "bearing": 2,
+        "content_file": "20_puget_sound.html",
+        "effects": {
+          "show": ["geo-glacial"],
+          "hide": ["fault-major","fault-regional","fault-minor","geo-minor"]
         }
       }
     }
