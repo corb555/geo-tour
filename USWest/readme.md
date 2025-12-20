@@ -16,6 +16,7 @@ the cataclysmic Missoula Floods—and concludes with the deep crustal stretching
 created the Basin and Range, the Grand Canyon, and the Rio Grande Rift.
 
 **Target Audience & Duration:**
-This tour is designed for **general audiences and students 12 or older** with an interest in earth
-science, requiring no prior geological training to understand. It takes approximately
-**10-15 minutes** to complete at a leisurely reading pace.
+This tour is designed for college level audiences.
+While accessible to beginners, it utilizes specific geologic terminology (Flux Melting, Elastic Rebound,
+Isostasy) appropriate for an introductory college curriculum. It takes approximately **10-15 minutes**
+to complete at a leisurely reading pace.
