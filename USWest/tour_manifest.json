@@ -12,7 +12,7 @@
         "bearing": 0,
         "content_file": "01_intro.html",
         "effects": {
-          "show": [],
+          "show": ["fault-highlight","geo-annotation-highlight","geo-arrow"],
           "hide": ["peak-major","geo-regional"]
         }
       }
@@ -140,7 +140,7 @@
       "geometry": { "type": "Point", "coordinates": [-111.93, 36.24] },
       "properties": {
         "title": "Grand Canyon",
-        "zoom": 8.9,
+        "zoom": 8.6,
         "pitch": 60,
         "bearing": 0,
         "content_file": "15_grand_canyon.html",
