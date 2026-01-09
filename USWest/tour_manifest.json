@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "$schema": "./tour.schema.json",
   "tour_title": "Tour",
   "features": [
     {
@@ -198,7 +199,7 @@
       "geometry": { "type": "Point", "coordinates": [-122.4, 47.6] },
       "properties": {
         "title": "Ice Age",
-        "zoom": 8.6,
+        "zoom": 9.1,
         "pitch": 45,
         "bearing": 2,
         "content_file": "20_puget_sound.html",

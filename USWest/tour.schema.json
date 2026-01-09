@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MapLibre Tour Manifest",
+  "description": "Schema for the MapLibre Tour Control interactive storyboard.",
+  "type": "object",
+  "required": ["type", "features"],
+  "properties": {
+    "type": {
+      "const": "FeatureCollection",
+      "description": "Must be 'FeatureCollection'"
+    },
+    "tour_title": {
+      "type": "string",
+      "description": "The global title of the tour shown in the start button."
+    },
+    "features": {
+      "type": "array",
+      "description": "The ordered list of tour stops.",
+      "items": {
+        "type": "object",
+        "required": ["type", "geometry", "properties"],
+        "properties": {
+          "type": {
+            "const": "Feature"
+          },
+          "geometry": {
+            "type": "object",
+            "required": ["type", "coordinates"],
+            "properties": {
+              "type": { "const": "Point" },
+              "coordinates": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": { "type": "number" },
+                "description": "[Longitude, Latitude]"
+              }
+            }
+          },
+          "properties": {
+            "type": "object",
+            "required": ["title", "content_file"],
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Label displayed in the tour navigation dropdown."
+              },
+              "content_file": {
+                "type": "string",
+                "description": "Filename (e.g. 'intro.html') relative to contentBaseUrl."
+              },
+              "zoom": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 24,
+                "default": 10,
+                "description": "Target zoom level."
+              },
+              "pitch": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 85,
+                "default": 0,
+                "description": "3D Tilt angle (0 is top-down, 60 is isometric)."
+              },
+              "bearing": {
+                "type": "number",
+                "minimum": -360,
+                "maximum": 360,
+                "default": 0,
+                "description": "Compass direction (0 is North)."
+              },
+              "speed": {
+                "type": "number",
+                "default": 0.8,
+                "description": "Fly speed multiplier (Lower is slower/cinematic)."
+              },
+              "curve": {
+                "type": "number",
+                "default": 1.2,
+                "description": "Zoom curve. 1 is zoom-out-then-in. Higher is zoomier."
+              },
+              "clue": {
+                "type": "string",
+                "description": "Hint text used ONLY for Scavenger Mode."
+              },
+              "effects": {
+                "type": "object",
+                "description": "Layer visibility toggles.",
+                "properties": {
+                  "show": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "description": "List of Layer IDs to enable."
+                  },
+                  "hide": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "description": "List of Layer IDs to disable."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
