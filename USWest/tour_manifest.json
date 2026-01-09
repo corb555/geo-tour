@@ -141,7 +141,7 @@
       "geometry": { "type": "Point", "coordinates": [-111.93, 36.24] },
       "properties": {
         "title": "Grand Canyon",
-        "zoom": 8.6,
+        "zoom": 9.4,
         "pitch": 60,
         "bearing": 0,
         "content_file": "15_grand_canyon.html",
@@ -150,10 +150,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-107.44, 34.86] },
+      "geometry": { "type": "Point", "coordinates": [-107.33, 35.2] },
       "properties": {
         "title": "Valles Caldera",
-        "zoom": 8.2,
+        "zoom": 8.7,
         "pitch": 55,
         "bearing": 0,
         "content_file": "17_valles.html",
@@ -165,10 +165,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-106.90, 35] },
+      "geometry": { "type": "Point", "coordinates": [-106.8, 34.57] },
       "properties": {
         "title": "The Rio Grande Rift",
-        "zoom": 8.5,
+        "zoom": 8.8,
         "pitch": 60,
         "bearing": 0,
         "content_file": "18_rio_grande_rift.html",
@@ -181,7 +181,7 @@
 
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-118.48, 46.436] },
+      "geometry": { "type": "Point", "coordinates": [-119, 45.17] },
       "properties": {
         "title": "Missoula Floods",
         "zoom": 8.6,
@@ -196,10 +196,10 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-122.4, 47.6] },
+      "geometry": { "type": "Point", "coordinates": [-122.47, 47.55] },
       "properties": {
         "title": "Ice Age",
-        "zoom": 9.1,
+        "zoom": 9.0,
         "pitch": 45,
         "bearing": 2,
         "content_file": "20_puget_sound.html",
